@@ -25,10 +25,25 @@ const sharedStyles = StyleSheet.create({
     textAlign: 'left',
     color: 'white',
   },
+  titleBook: {
+    marginTop: 200,
+    fontSize: 24, 
+    marginBottom: 16,
+    textAlign: 'left',
+    color: 'white',
+  },
   subtitle: {
     fontSize: 15,
     marginBottom: 16,
     textAlign: 'left',
+    color: 'gray',
+  },
+  subtitleGet: {
+    fontSize: 15,
+    marginBottom: 16,
+    textAlign: 'center',
+    paddingLeft: 50,
+    paddingRight: 50,
     color: 'gray',
   },
   inputContainer: {
