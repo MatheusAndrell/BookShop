@@ -10,7 +10,6 @@ export default function Navigation() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login">
         <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }} />
-        {/* Adicione outras telas aqui conforme necessário */}
       </Stack.Navigator>
     </NavigationContainer>
   );

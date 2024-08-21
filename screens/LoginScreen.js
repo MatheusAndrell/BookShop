@@ -61,7 +61,7 @@ export default function LoginScreen({ navigation }) {
       </View>
       <Button
         mode="contained"
-        onPress={handleLogin}
+        onPress={() => navigation.navigate('HomeScreen')}
         style={sharedStyles.buttonLogin}
         labelStyle={sharedStyles.loginButtonLabel}
       >

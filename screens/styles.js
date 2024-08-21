@@ -19,6 +19,7 @@ const sharedStyles = StyleSheet.create({
     borderRadius: 8,
   },
   title: {
+    fontWeight: 'bold',
     marginTop: 50,
     fontSize: 24, 
     marginBottom: 16,
